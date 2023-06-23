@@ -1,0 +1,32 @@
+/* adaptacion del video a las distintas resoluciones*/
+@media (min-width:610px) and (max-width: 840px) {
+    .video{
+        position:relative;
+        right:13%;
+    }
+}
+
+@media (min-width:405px) and (max-width: 600px) {
+    .video{
+        position:relative;
+        right:26%;
+        width:400px;
+        height: 300px;
+    }
+}
+@media (min-width:300px) and (max-width: 404px) {
+    .video{
+        position:relative;
+        right:15%;
+        width:300px;
+        height: 200px;
+    }
+}
+@media (min-width:200px) and (max-width: 299px) {
+    .video{
+        position: relative;
+        right:10%;
+        width:200px;
+        height: 100px;
+    }
+}

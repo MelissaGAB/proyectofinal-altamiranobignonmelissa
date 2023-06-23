@@ -1,0 +1,306 @@
+@charset "UTF-8";
+/*Imports*/
+/* Reseteo general del sitio*/
+@import url("https://fonts.googleapis.com/css2?family=Diphylleia&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/*Variables*/
+/*Uso de variables*/
+/*Iconos para el footer-redes*/
+.redes-icon img { /*Links de redes sociales - para cada footer-*/
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+/* adaptacion del video a las distintas resoluciones*/
+@media (min-width: 610px) and (max-width: 840px) {
+  .video {
+    position: relative;
+    right: 13%;
+  }
+}
+@media (min-width: 405px) and (max-width: 600px) {
+  .video {
+    position: relative;
+    right: 26%;
+    width: 400px;
+    height: 300px;
+  }
+}
+@media (min-width: 300px) and (max-width: 404px) {
+  .video {
+    position: relative;
+    right: 15%;
+    width: 300px;
+    height: 200px;
+  }
+}
+@media (min-width: 200px) and (max-width: 299px) {
+  .video {
+    position: relative;
+    right: 10%;
+    width: 200px;
+    height: 100px;
+  }
+}
+/*uso de fuentes*/
+@media (min-width: 400px) and (max-width: 700px) {
+  .section-index {
+    top: 10px;
+    justify-items: center;
+  }
+}
+@media (min-width: 400px) and (max-width: 700px) {
+  .titles h2 {
+    font-size: medium;
+    right: 50px;
+    color: whitesmoke;
+  }
+}
+/*media del Index*/
+@media (min-width: 200px) and (max-width: 545px) {
+  .button-return {
+    display: inline-block;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    right: 10px;
+    bottom: 100px;
+  }
+}
+@media (min-width: 300px) and (max-width: 667px) {
+  .carousel-item img {
+    position: relative;
+    left: 5%;
+  }
+  .carousel-caption h3 {
+    text-align: center;
+  }
+}
+/* Aca van todas las caracteristicas del INDEX */
+.main-index {
+  background-image: radial-gradient(ellipse 500px 800px, rgb(1, 19, 1), rgb(28, 27, 34));
+}
+
+.section-index {
+  position: relative;
+  text-align: right;
+  justify-items: center;
+  bottom: 600px;
+}
+
+/* Acá intente hacer responsiva el section del index */
+.titles h1 {
+  display: block;
+  position: relative;
+  font-size: 25px;
+  text-align: right;
+  right: 60px;
+  color: whitesmoke;
+}
+
+.titles h2 {
+  display: block;
+  position: relative;
+  font-size: 20px;
+  text-align: right;
+  right: 220px;
+  color: whitesmoke;
+}
+
+.button {
+  display: block;
+  position: relative;
+  right: 230px;
+}
+
+/* Acá finalizan las características del INDEX */
+/* Acá van todas las características de la pag SOBRE NOSOTRAS */
+.contend-section {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  font-family: Diphylleia;
+  background-image: linear-gradient(to top, #E693D8, #E6DBAA, #99538D);
+}
+.contend-section .art1 {
+  font-size: x-large;
+  justify-content: center;
+}
+.contend-section h1 {
+  text-align: center;
+}
+.contend-section p {
+  text-align: center;
+  font-size: medium;
+}
+.contend-section .video {
+  position: relative;
+  margin-left: 28%;
+}
+
+/* Acá finalizan todas las características de la pag SOBRE NOSOTRAS */
+/* Acá van todas las características del proximas lecturas */
+main {
+  background-image: linear-gradient(to top, #E693D8, #E6DBAA, #99538D);
+}
+
+.contenedor-titulo {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+.contenedor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-auto-rows: 1fr;
+  gap: 20px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.contenedor-grid .img1 {
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+}
+.contenedor-grid .img2 {
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+}
+.contenedor-grid .img3 {
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+}
+.contenedor-grid .img4 {
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+}
+.contenedor-grid .img5 {
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+}
+.contenedor-grid .img6 {
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+}
+.contenedor-grid .img7 {
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+}
+.contenedor-grid .img8 {
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+}
+.contenedor-grid .img9 {
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+}
+.contenedor-grid .img10 {
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+}
+.contenedor-grid .img11 {
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+}
+.contenedor-grid .img12 {
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+}
+.contenedor-grid img {
+  transition: 1s;
+}
+.contenedor-grid img:hover {
+  width: 250px;
+  height: 350px;
+  box-shadow: 15px 15px 20px goldenrod;
+  transition: 0.5s;
+}
+
+.button-return {
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  right: 100px;
+}
+
+/* Acá finaliza toda la configuración de tamaño de todas las imágenes */
+/* Acá finalizan todas las características de la pag PROXIMAS LECTURAS */
+/* Acá van todas las características de la pag LECTURAS ACTUALES */
+.img_1 {
+  width: 300px;
+  height: 450px;
+}
+
+.img_2 {
+  width: 300px;
+  height: 450px;
+}
+
+.carousel-item img {
+  position: relative;
+  left: 35%;
+}
+
+.carousel-caption h5 {
+  text-align: center;
+}
+
+/*Flecha para hacer la pagina hacia arriba*/
+/* Acá finalizan todas las características de LECTURAS ACTUALES */
+/* Acá van todas las características de la pag CONTACTOS */
+.main-contacto {
+  background-color: #DFDBE5;
+  background-image: linear-gradient(to top, #E693D8, #E6DBAA, #99538D);
+}
+
+.contenedor-form {
+  width: 400px;
+  height: 550px;
+  margin: auto;
+  border: 1px solid rgb(87, 3, 87);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(221, 39, 166, 0.377);
+}
+.contenedor-form .form-control {
+  width: 250px;
+}
+.contenedor-form .form-select {
+  width: 250px;
+}
+.contenedor-form .btn {
+  margin-top: 10px;
+}
+
+/* Acá finalizan todas las características de la pag CONTACTOS */
+
+/*# sourceMappingURL=style.css.map */

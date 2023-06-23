@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <!--Favicon-->
+       <link rel="icon" type="image/vnd.icon" href="../assets/icon/libros16.ico">
+        <!-- Acá va Linkeado mi CSS -->
+        <link rel="stylesheet" href="../css/style.css">
+        <!-- Esto pertenece a una librería de BOOTSTRAP -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+        <title>Lecturas Actuales</title>
+    </head>
+    <body>
+      <!-- Acá va todo mi HEADER el cual contiene barra de navegación -->
+        <header>
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="../index.html">Hijas del Viento</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./sobrenosotras.html">Sobre Nosotras</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">Lecturas Actuales</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./proximaslecturas.html">Próximas Lecturas</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <main class="container">
+          <!-- Acá va el título de Lecturas Actuales -->
+          <div>
+            <h1 class="text-center">¡Lecturas Actuales!</h1>
+          </div>
+          <!-- Acá está el carousel con lecturas actuales -->
+          <section class="row my-5 mx-auto">
+          <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+                      <!--Carrousel-->
+            <div class="carousel-inner">
+              <!-- Lectura 1 -->
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img class="img_1" src="../assets/images/peligrodeestarcuerda.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>El peligro de estar cuerda</h3>
+                  <p>Género: Nonfiction, Spanish Literature, Essays, Drama</p>
+                </div>
+              </div>
+              <!-- Lectura 2 -->
+              <div class="carousel-item" data-bs-interval="2000">
+                <img class="img_2" src="../assets/images/losniñosdelverano.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Los niños del verano</h3>
+                  <p>Genres: Thriller, Mystery, Fiction, Horror, Crime, Mystery, ThrillerSuspense.</p>
+                </div>
+              </div>
+              <!-- Lectura 3 -->
+              <div class="carousel-item">
+                <img class="img_3" src="../assets/images/mrsdalloway.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Mrs. Dalloway</h3>
+                  <p>Género: Classics, Fiction, Novel, Feminism .</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          </section>
+        </main>
+        <!-- Acá van las características del FOOTER de BOOTSTRAP -->
+        <footer class="bg-light text-center text-lg-start">
+          <!-- Grid container -->
+          <div class="container p-4">
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                <h3 class="text-uppercase">Quienes Somos</h3>
+                <p>
+                  Un club de lectura muy especial, que durante la pandemia del 2020 decidió adaptarse a la situación y continuar con su pasión por la lectura de una manera diferente.
+                  El club de lectura "Hijas del viento" descubrió que no importa cuán lejos estén las personas o cuántos obstáculos se interpongan en el camino, la pasión compartida por los libros y la lectura siempre puede mantenerlos unidos.
+                </p>
+              </div>
+              <!--Grid column-->
+              <!--Grid column-->
+              <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                <h3 class="text-uppercase">Nuestras Redes</h3>
+                <ul class="redes-icon">
+                  <li><a href="https://www.instagram.com/hijasdelviento.clubdelectura/?hl=cs" target="_blank"><img src="../assets/icon/instagram.svg" alt="IG"></a></li>
+                  <li><a href="#"><img src="../assets/icon/facebook.svg" alt="Facebook"></a></li>
+                  <li><a href="#"><img src="../assets/icon/telegram.svg" alt="Telegram"></a></li>
+                </ul>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </div>
+          <!-- Grid container -->
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(236, 245, 106, 0.733);">
+            © 2023 Copyright:
+            <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+            <!-- Librería de Bootstrap JavaScript -->
+            <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        </body>
+    </html>
